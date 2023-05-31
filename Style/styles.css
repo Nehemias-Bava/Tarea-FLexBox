@@ -1,0 +1,113 @@
+.container {
+    display: flex;
+}
+
+.container1 {
+    background-color: #c4c0c0;
+    border: 1px solid black;
+    box-shadow: 1px 0px 3px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.encabezado {
+    height: 20px;
+}
+.logo {
+    border: 1px solid black;
+    background-color: blue;
+    height: 20px;
+    
+}
+.menu1 {
+    border: 1px solid black;
+    background-color: forestgreen;
+    height: 20px;
+}
+.menu2 {
+    border: 1px solid black;
+    background-color: red;
+    height: 20px;
+}
+
+.container2 {
+    display: flex;
+    padding: 3px;
+    justify-content: space-around;
+    height: 180px;
+}
+
+.izquierda {
+    background-color: #4b4a4a;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 28%;
+    padding-inline: 10px;
+    padding-top: 10px;
+}
+.centro {
+    background-color: #21979b;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 28%;
+    padding-inline: 10px;
+    padding-top: 10px;
+}
+.derecha {
+    background-color: #e6870be1;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 28%;
+    padding-inline: 10px;
+    padding-top: 10px;
+}
+
+.container3 {
+    display: flex;
+    padding: 3px;
+    justify-content: space-around;
+    height: 200px;
+}
+.izquierda2 {
+    background-color: #0f3308;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 62%;
+    padding-inline: 10px;
+    padding-top: 10px;
+}
+.derecha2 {
+    background-color: #a14109;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 28%;
+    padding-inline: 10px;
+    padding-top: 10px;
+}
+
+.container4 {
+    display: flex;
+    padding: 3px;
+    justify-content: space-between;
+    background-color: #08c5d3;
+    border-radius: 10px;
+    width: 98%;
+    height: 80px;
+    
+}
+
+.pie {
+    margin-top: 10px;
+    
+}
