@@ -1,11 +1,12 @@
 .container {
     display: flex;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container1 {
-    background-color: #c4c0c0;
-    border: 1px solid black;
-    box-shadow: 1px 0px 3px;
+    background-color: #c7c2c2;
+    border: 1px solid #5a5555d5;
     padding: 8px;
     display: flex;
     flex-direction: column;
@@ -21,32 +22,37 @@
 }
 .logo {
     border: 1px solid black;
-    background-color: blue;
+    background-color: #0b0b5ad5;
     height: 20px;
-    
+    color: #e7dfdf;
+    padding-inline-start: 10px;
 }
 .menu1 {
     border: 1px solid black;
     background-color: forestgreen;
     height: 20px;
+    color: #e7dfdf;
+    padding-inline-start: 10px;
 }
 .menu2 {
     border: 1px solid black;
     background-color: red;
     height: 20px;
+    color: #e7dfdf;
+    padding-inline-start: 10px;
 }
 
 .container2 {
     display: flex;
-    padding: 3px;
+    padding: 1px;
     justify-content: space-around;
     height: 180px;
 }
 
 .izquierda {
     background-color: #4b4a4a;
-    color: white;
-    border: 1px solid black;
+    color: #e7dfdf;
+    border: 1px solid #5a5555d5;
     border-radius: 10px;
     width: 28%;
     padding-inline: 10px;
@@ -54,8 +60,8 @@
 }
 .centro {
     background-color: #21979b;
-    color: white;
-    border: 1px solid black;
+    color: #e7dfdf;
+    border: 1px solid #5a5555d5;
     border-radius: 10px;
     width: 28%;
     padding-inline: 10px;
@@ -63,8 +69,8 @@
 }
 .derecha {
     background-color: #e6870be1;
-    color: white;
-    border: 1px solid black;
+    color: #e7dfdf;
+    border: 1px solid #5a5555d5;
     border-radius: 10px;
     width: 28%;
     padding-inline: 10px;
@@ -73,14 +79,14 @@
 
 .container3 {
     display: flex;
-    padding: 3px;
+    padding-top: 8px;
     justify-content: space-around;
     height: 200px;
 }
 .izquierda2 {
     background-color: #0f3308;
-    color: white;
-    border: 1px solid black;
+    color: #e7dfdf;
+    border: 1px solid #5a5555d5;
     border-radius: 10px;
     width: 62%;
     padding-inline: 10px;
@@ -88,8 +94,8 @@
 }
 .derecha2 {
     background-color: #a14109;
-    color: white;
-    border: 1px solid black;
+    color: #e7dfdf;
+    border: 1px solid #5a5555d5;
     border-radius: 10px;
     width: 28%;
     padding-inline: 10px;
@@ -98,16 +104,27 @@
 
 .container4 {
     display: flex;
-    padding: 3px;
     justify-content: space-between;
+    padding: 2px;
     background-color: #08c5d3;
     border-radius: 10px;
     width: 98%;
     height: 80px;
-    
-}
-
-.pie {
+    border: 1px solid #5a5555d5;
     margin-top: 10px;
+}
+.pie {   
+    padding: 15px;
+}
+.elemento {
+    background-color: #0b0b5ad5;
+    border: 1px solid #131212d5;
+    color: #e7dfdf;
+    align-self: self-end;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    padding-inline: 20px;
+    align-content: center;
     
 }
