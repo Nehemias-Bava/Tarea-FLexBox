@@ -1,0 +1,74 @@
+body {
+    background: url(../image/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+header {
+    background: url(../image/headerEverest2.jpg);
+    margin-bottom: 4px;
+    display: flex;
+}
+
+h1 {
+    font-size: 40px;
+    color: #111C32;
+    text-shadow: black;
+    margin-left: 50px;
+}
+
+p {
+    color: #111C32;
+    font-size: medium;
+    margin-left: 5px;
+}
+
+nav a {
+    background-color: #111C32;
+    color: #74BDCB;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 5px 93px;
+    border-radius: 10px;
+}
+
+a:hover {
+    color: #E7F2F8;
+}
+
+h2 {
+    background-color: #0E1213;
+    margin-top: 30px;
+    text-align: center;
+    box-shadow: 0px 0px 5px #111C32;
+    color: #B4AAA9;
+    border-radius: 3px;
+}
+
+section {
+    background: url(../image/secciones1.jpg);
+    box-shadow: 0px 1px 8px #111C32;
+    color: #EFE7BC;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 3px;
+}
+
+img {
+    border-radius: 4px;
+    box-shadow: 0px 1px 4px #EFE7BC;
+    padding: 2px;
+    border: 2px solid #111C32;
+}
+
+footer {
+    background-color: #0E1213;
+    color: #74BDCB;
+    padding: 1px 93px;
+    border-radius: 10px;
+    display: inline-flex;
+}
+
+
