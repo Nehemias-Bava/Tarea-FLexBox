@@ -1,0 +1,25 @@
+body {
+  zoom: 1.4
+}
+
+.color-box {
+  width: 300px;
+  height: 300px;
+  border: 1px solid;
+  margin-bottom: 2rem;
+}
+
+.hotpink {
+  background-color: hotpink;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border: 1px solid teal;
+  margin: 2rem 0;
+
+}
