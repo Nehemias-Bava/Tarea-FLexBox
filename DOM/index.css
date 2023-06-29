@@ -3,9 +3,24 @@ body {
     text-align: center;
 }
 
-button {
-    background-color: aquamarine;
-    margin: 10px;
+
+#contador {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.boton {
+    font-size: 18px;
     padding: 10px 20px;
-    font-size: 16px;
+    margin-right: 10px;
+}
+#mensaje {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.verde {
+    color: green;
+}
+.rojo {
+    color: red;
 }
